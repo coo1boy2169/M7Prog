@@ -1,0 +1,3 @@
+Ik ga een portfolio webstie maken met daar in de projecten die ik heb gedaan en de opdrachten die ik heb gemaakt.
+Het doel van de website is om mijn werk te tonen en mijn vaardigheden te demonstreren. Het is bedoelt voor de stage bedrijfen waar voor ik ga soliciteren. zodat zij kunnen zien wat ik heb gedaan
+Ik ga de functionele eisen verwerekn door lara vel te gebruiken. Ik ga denk ik voor en straker design gaan. dus zwart wit en meschien nog extra kleurtjes. maar dat zien we dan nog wel

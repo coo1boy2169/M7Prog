@@ -23,10 +23,10 @@
     <header class="hero">
         <nav class="nav">
             <div class="nav-content">
-                <div class="logo">JD</div>
+                <div class="logo">OH</div>
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="{{route('about')}}">About</a></li>
+                    <li><a href="{{route('project')}}">Project</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -43,26 +43,7 @@
         </div>
     </header>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="olgunfoto.png" alt="Olgun Hristov">
-                </div>
-                <div class="about-text">
-                    <p>I'm a passionate full-stack developer with a keen eye for design and a love for creating seamless user experiences. With expertise in modern web technologies, I bring ideas to life through clean, efficient code.</p>
-                    <div class="skills">
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Node.js</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <section id="projects" class="projects">
         <div class="container">

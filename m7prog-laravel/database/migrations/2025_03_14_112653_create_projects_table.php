@@ -20,7 +20,6 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->boolean('active')->default(false);
             $table->timestamps();
-            $table->double('amount', 8, 2);
         });
     }
 
@@ -31,4 +30,5 @@ return new class extends Migration
     {
         Schema::dropIfExists('projects');
     }
+    
 };

@@ -19,6 +19,17 @@ class ProjectController extends Controller
     }
 
 
+    /**
+     * Show a single item
+     * 
+     * @param project $project
+     * @return string
+     */
+    public function show(Project $project)
+    {
+        return view('projects.show', ['project'=>$project]);
+    }
+
     public function add()
     {
 

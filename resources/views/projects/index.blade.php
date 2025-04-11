@@ -21,11 +21,11 @@
                 </p>
 
                 <p class="text-xs text-gray-500 dark:text-gray-400 text-center">
-                    <strong>Aangemaakt op:</strong> {{ $project->created_at->format('d-m-Y H:i') }}
+                    <strong>Aangemaakt op:</strong> {{ $project->created_at?->format('d-m-Y H:i') }}
                 </p>
 
                 <p class="text-xs text-gray-500 dark:text-gray-400 text-center">
-                    <strong>Bijgewerkt op:</strong> {{ $project->updated_at->format('d-m-Y H:i') }}
+                    <strong>Bijgewerkt op:</strong> {{ $project->updated_at?->format('d-m-Y H:i') }}
                 </p>
 
                 <button type="button" class="py-2.5 px-5 me-2 m-3 mb-2 text-sm font-medium text-white-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"><a class=" text-xs text-gray- dark:text-gray-400 text-center" href="{{route('project.show', $project)}}"> <strong>Bekijk dit item </strong></a></button>

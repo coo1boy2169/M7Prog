@@ -19,7 +19,7 @@ Route::middleware('auth')->group(function () {
 
 
     Route::get('/project/{project}', [ProjectController::class, 'show'])->name('project.show');
-    Route::get('/projects', [ProjectController::class, 'index'])->name('project.index');
+    Route::get('/projects', [ProjectController::class, 'index'])->name('project');
     Route::get('/projects/add', [ProjectController::class, 'add'])->name('project.add');
     Route::get('/about', [\App\Http\Controllers\AboutController::class, 'index'])->name('about');
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

@@ -12,14 +12,16 @@ class ProjectSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    
     public function run(): void
     {
         $faker = Faker::create();
-        DB::table('projects')->insert([
-            'title'       => $faker->colorName(),
-            'description' => $faker->text(),
-            'active'        => true,
-        ]);
+        
+        for($i = 0; $i < 10; $i++) {
+            DB::table('projects')->insert([
+                'title'       => $faker->colorName(),
+                'description' => $faker->text(),
+                'active'      => true,
+            ]);
+        }
     }
 }
